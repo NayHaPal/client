@@ -1,0 +1,35 @@
+.uploader-area {
+    position: relative;
+}
+.uploader-area .dropzone-z{
+    border: 2px solid rgba(82, 82, 82, 0.363);
+    padding: 50px 0;
+    text-align: center;
+    background: #ffffffe8;
+    text-transform: uppercase;
+    color: rgba(24, 34, 124, 0.6);
+  }
+.uploader-area  .dropzone-z.active{
+    border-color:rgb(80, 100, 192);
+  }
+  .uploader-area .file{
+    text-decoration:none;
+    color: rgba(255,255,255,0.8);
+    display:block;
+    background-color: #41415d;
+    margin-top: 20px;
+    padding: 10px;
+    position:relative;
+    overflow: hidden;
+  }
+  .uploader-area .file .progress {
+    background-color: rgba(80,80,120, .8);
+    position: absolute;
+    inset:0;
+    width:0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .uploader-area .file .progress.done{
+    top: 100px;
+  }
